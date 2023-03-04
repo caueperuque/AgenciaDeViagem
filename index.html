@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Paraíso</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body>
+  <header>
+    <a href="#">
+      <img src="images/logo.png" alt="Hotel Paraíso">
+    </a>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">Sobre</a>
+      <a href="">Reservas</a>
+      <a href="#footer">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="./images/logomain.png" alt="">
+    <a href="" class="btn">Saiba mais</a>
+  </section>
+
+  <section class="know-the-agency" id="about">
+    <h3>Conheça a Agência Khli!</h3>
+    <p>Deseja uma viagem segura e confortável? Uma viagem onde tenha tranquilidade e paz, sem preocupaçoes, comodidade. Nossa agência está aqui para te proporcionar tudo isso!</p>
+    <hr>
+    <div class="grid">
+      <span class="small" style="background-image: url('images/grecia.jpg')"></span>
+      <span class="large" style="background-image: url('images/ilha-das-maldivas.jpg')"></span>
+      <span class="large" style="background-image: url('images/paris.jpg')"></span>
+      <span class="small" style="background-image: url('images/tokyo.jpg')"></span>
+    </div>
+  </section>
+
+  <form class="features">
+    <h3>Veja nossas ofertas:</h3>
+    <hr>
+    <div class="container-maldivas container">
+      <h4>Ilha Das Maldivas</h4>
+      <div class="obs"><span><i>(Obs: Preço inclui ida e volta, 5 dias)</i></span></div>
+      <label for="">Qtd de pessoas:</label>
+      <select name="" id="maldivas-1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <h3 id="maldivas-price">R$8870,00</h3>
+    </div>
+    <hr>
+    <div class="container-paris container">
+      <h4>Paris</h4>
+      <div class="obs"><span><i>(Obs: Preço inclui ida e volta, 7 dias)</i></span></div>
+      <label for="">Qtd de pessoas:</label>
+      <select name="" id="paris-1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <h3 id="paris-price">R$7500,00</h3>
+    </div>
+    <hr>
+    <div class="container-tokyo container">
+      <h4>Tóquio</h4>
+      <div class="obs"><span><i>(Obs: Preço inclui ida e volta, 5 dias)</i></span></div>
+      <label for="">Qtd de pessoas:</label>
+      <select name="" id="tokyo-1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <h3 id="tokyo-price">R$6800,00</h3>
+    </div>
+    <hr>
+    <div class="container-grecia container">
+      <h4>Grécia</h4>
+      <div class="obs"><span><i>(Obs: Preço inclui ida e volta, 5 dias)</i></span></div>
+      <label for="">Qtd de pessoas:</label>
+      <select name="" id="grecia-1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <h3 id="grecia-price">R$5900,00</h3>
+    </div>
+    <hr>
+      
+  </form>
+  
+  <section class="newsletter">
+    <h3>Newsletter</h3>
+    <p>Assine nossa newsletter para se manter atualizado com nossos serviços e promoçoes</p>
+    <hr>
+    <form>
+      <input type="text" placeholder="Email">
+      <button>Cadastrar</button>
+    </form>
+  </section>
+
+  <footer id="footer">
+    <ul>
+      <li><a href=""><i class="fab fa-facebook" style="font-size: 40px;"></i></a></li>
+      <li><a href=""><i class="fab fa-twitter" style="font-size: 40px;"></i></a></li>
+      <li><a href=""><i class="fab fa-tiktok" style="font-size: 40px;"></i></a></li>
+      <li><a href=""><i class="fab fa-instagram" style="font-size: 40px;"></i></a></li>
+      <li><a href="https://wa.me/+5511999887766"><i class="fab fa-whatsapp" style="font-size: 40px;"></i></a></li>
+    </ul>
+    <p>Copyright © 2023 - Leonardo Macedo</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
