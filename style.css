@@ -283,7 +283,7 @@ footer ul {
     justify-content: center;
   }
   .hero img {
-    max-width: 360px;
+    max-width: 100%;
   }
   .know-the-agency {
     padding: 100px 10px;
@@ -321,9 +321,9 @@ footer ul {
   .fab {
     width: 10px;
   }
-  .hero {
-    max-width: 390px;
-  }
+  /* .hero {
+    max-width: 100%;
+  } */
   footer > p {
     text-align: center;
     font-size: 10px;
